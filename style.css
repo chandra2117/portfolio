@@ -1,0 +1,311 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    top: 0px;
+}
+.header-name{
+    display: flex;
+    padding-left: 10%;
+    margin-top: 50px;
+    font-size: 25px;
+    color: deeppink;
+}
+.header-list{
+    display: flex;
+}
+.list-display{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 40px;
+    margin-top: 120px;
+    font-size: 17px;
+    cursor: pointer;
+}
+li:hover{
+    color: blue;
+}
+.header-link{
+    text-decoration: none;
+    color: black;
+}
+.header-link:hover{
+    color: blue;
+}
+.about-me{
+    position: relative;
+}
+.about-background-image{
+    width: 1500px;
+    height: 650px;
+    position: relative;
+    top: 30px;
+    object-fit: cover;
+}
+.my-name{
+    position: absolute;
+    color: white;
+}
+.resume-btn{
+    position: absolute;
+    bottom: 130px;
+    left: 200px;
+    width: 170px;
+    background-color:deepskyblue;
+    padding: 25px 100px 25px 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.resume-btn:hover{
+    background-color: dodgerblue;
+}
+.my-name-page{
+    position: absolute;
+    width: 500px;
+    bottom: 350px;
+    left: 200px;
+    font-size: 60px;
+}
+.my-name-page1{
+    position: absolute;
+    color: white;
+    bottom: 250px;
+    left: 200px;
+    font-size: 60px;
+    width: 500px;
+}
+.my-name-page2{
+    position: absolute;
+    color: white;
+    bottom: 230px;
+    left: 200px;
+    font-size: 20px;
+    width: 500px;
+}
+.about-me-page{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.about{
+    padding: 40px 40px 30px 40px;
+    font-size: 25px;
+}
+.details-section{
+    font-size: 15px;
+    width: 600px;
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 4%;
+}
+.my-details-content{
+    display: flex;
+}
+.content-2{
+    color: gray;
+}
+.my-image{
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+    padding-left: 20%;
+    margin-top: 19%;
+}
+.content-about-education{
+    display: flex;
+    font-size: 15px;
+}
+.education-container{
+    text-align: center;
+    margin-top: 100px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.content1{
+    width: 500px;
+    margin-left: 33%;
+    text-align: left;
+}
+.year{
+    font-size: 20px;
+}
+.title1{
+    font-size: 25px;
+}
+.content2{
+    color: gray;
+}
+.university{
+    font-size: 18px;
+}
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 60px;
+    max-width: 1000px;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+.skills{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+}
+.skill-name {
+    color: #555;
+    margin-bottom: 8px;
+}
+.progress-wrapper {
+    display: flex;
+    align-items: center;
+}
+.progress-bar-container {
+    flex-grow: 1;
+    background-color: #e0e6ed;
+    height: 8px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.progress-bar {
+    height: 100%;
+    background-color: green;
+    border-radius: 5px 0 0 5px;
+}
+.progress-value {
+    color: deeppink;
+    font-weight: bold;
+    font-size: 14px;
+    width: 35px;
+    text-align: right;
+}
+.profile{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.github-link{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+.hyper-link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background-color: whitesmoke;
+    padding: 100px 200px 100px 200px;
+    border-right: solid 1px black;
+    transition: background-color 0.7s ease;
+}
+.hyper-link:hover{
+    background-color: mediumorchid;
+    color: white;
+}
+.contact-container{
+    display: flex;
+    background-color: aliceblue;
+    padding: 50px;
+}
+.contact-form1{
+    margin-left: 15%;
+    margin-top: 80px;
+    width: 1000px;
+}
+input{
+    text-align: center;
+    background-color: white;
+    border: none;
+    padding: 25px 50px;
+}
+input:focus{
+    outline: none;
+    border: none;
+}
+.contact-form2{
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 1000px;
+}
+.contact-form3{
+    margin-left: 15%;
+    margin-top: 50px;
+    width: 1000px;
+}
+.input3{
+    padding: 20px 65px 100px 65px;
+}
+.submit-btn{
+    margin-top: 50px;
+}
+.submit{
+    padding: 20px 115px 20px 115px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-left: 15%;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+.submit:hover{
+    background-color: deepskyblue;
+}
+.contact{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.details{
+    margin-top: 100px;
+    font-size: 18px;
+}
+.subtitles{
+    color: gray;
+    margin-top: 30px;
+}
+.subtitles1{
+    margin-top: 30px;
+}
+footer{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 18px;
+    background-color: black;
+    color: gray;
+    padding: 7px;
+}
+#topBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 15px 15px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+    font-size: 25px;
+  }
+  #topBtn:hover {
+    background-color: #555;
+  }
